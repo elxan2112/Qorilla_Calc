@@ -123,9 +123,6 @@ class MainActivity : AppCompatActivity() {
                 val result = ops.evaluate()
                 val longResult = result.toLong()
                 if (result == longResult.toDouble()) {
-                    //var res = "%.6f".format(longResult.toString())
-                    //res_text.text = (("%.2f".format(longResult)).toDouble()).toString()
-
                     res_text.text = longResult.toString()
                     math_op.text = ""
                     math_op_temp = ""
